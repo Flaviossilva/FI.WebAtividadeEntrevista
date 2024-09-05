@@ -1,0 +1,10 @@
+﻿CREATE PROCEDURE FI_SP_AltBeneficiario
+    @Id INT,
+    @CPF VARCHAR(14),
+    @Nome VARCHAR(100)
+AS
+BEGIN
+    UPDATE BENEFICIARIOS
+    SET CPF = @CPF, NOME = @Nome
+    WHERE ID = @Id;
+END

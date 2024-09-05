@@ -1,0 +1,30 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#beneficiariosForm .form-row {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center; 
+    gap: 1px; 
+}
+
+#beneficiariosForm .form-group {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+    #beneficiariosForm .form-group input {
+        width: 100%; 
+    }
+
+#salvarBeneficiario {
+    margin-top: 25px
+}
